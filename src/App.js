@@ -1,8 +1,9 @@
+import DashBoard from "./Dashboard";
 
 function App() {
   return (
     <div className="App">
-      HELLO MUCHIRA JUNIOR
+      < DashBoard />
     </div>
   );
 }
