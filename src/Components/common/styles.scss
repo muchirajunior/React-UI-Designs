@@ -1,0 +1,73 @@
+.submit-button{
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(13, 13, 99);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0.1rem 1rem 2rem  rgba(black, 0.2);
+    font-size: 20px;
+    min-height: 30px;
+    border: none;
+    &:focus {
+      outline: none;
+      border: none;
+      box-shadow: 0 1rem 2rem rgba(black, 0.2);
+    border-bottom: 3px solid rgb(5, 5, 94);
+    }
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-card{
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: end;
+  background-color: white;
+  min-width: 300px;
+  height: fit-content;
+
+  &__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+  }
+
+  &__icon{
+    font-size: 100px;
+    color: rgb(6, 6, 78);
+  }
+
+  &__title{
+    font-size: 35px;
+    color: rgb(9, 9, 146);
+    font-style: oblique;
+  }
+
+  &__text{
+    font-size: 25px;
+    font-style: italic;
+    color: orange;
+  }
+}
