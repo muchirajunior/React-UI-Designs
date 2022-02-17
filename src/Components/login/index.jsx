@@ -8,7 +8,7 @@ function Login(props) {
             <span className="login__title" > Login </span>
             <br />
             < TextInput placeholder="username" type="text" />
-            < TextInput placeholder="username" type="text" />
+            < TextInput placeholder="password" type="password" />
             <a href="#!" className='login__links'>forgot pass</a>
             <br />
             <SubmitButton/>

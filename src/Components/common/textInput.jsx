@@ -1,7 +1,6 @@
 import  './styles.scss';
 
-function TextInput(props) {
-    const { placeholder, name, type }=props;
+function TextInput({placeholder, name , type}) {
     return (
         <div className="container">
             <label htmlFor={name}>{name}</label>

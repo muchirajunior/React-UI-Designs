@@ -3,8 +3,7 @@ import Home from '../Components/home';
 import Login from '../Components/login';
 import Register from '../Components/register';
 
-function Component(props) {
-    const { name } =props;
+function Component({name}) {
     switch (name) {
         case "home": return < Home />
         case "login": return < Login />
