@@ -1,13 +1,13 @@
 import React from 'react';
 import Home from '../Components/home';
+import Inputs from '../Components/inputs';
 import Login from '../Components/login';
-import Register from '../Components/register';
 
 function Component({name}) {
     switch (name) {
         case "home": return < Home />
         case "login": return < Login />
-        case "register": return < Register />  
+        case "inputs": return < Inputs />  
     
         default: return <Home />
     }

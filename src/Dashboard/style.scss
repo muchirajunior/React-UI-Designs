@@ -25,6 +25,7 @@
             display: none;
         }
 
+       
         @media (max-width:800px) {
             font-size: 16px;
 
@@ -53,6 +54,11 @@
             @media (min-width:800px) {
              display: flex !important;
             }
+
+            &-icon{
+                color: yellowgreen;
+            }
+    
         }
 
         &-container{

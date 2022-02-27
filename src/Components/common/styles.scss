@@ -13,12 +13,13 @@
 .text-input{
     width: 90%;
     padding: 10px;
+    margin: 10px;
     border: none;
     outline: none;
-    border-radius: 20px;
-    box-shadow: 0.1rem 1rem 2rem  rgba(black, 0.2);
-    font-size: 20px;
-    min-height: 30px;
+    border-radius: 15px;
+    box-shadow: 0.1rem 1rem 2rem 0.4rem  rgba(black, 0.2);
+    font-size: 25px;
+    min-height: 35px;
     border: none;
     &:focus {
       outline: none;
@@ -70,4 +71,45 @@
     font-style: italic;
     color: orange;
   }
+}
+
+.text-input2{
+  width: 90%;
+  margin: 10px;
+  border-radius: 13px;
+  border: 3px rgb(3, 3, 109) solid;
+  font-size: 24px;
+  padding: 10px;
+  outline: none;
+ 
+}
+
+.text-input3{
+  width: 88%;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px rgb(8, 8, 134) solid;
+  color: rgb(12, 12, 134);
+  
+  &__input{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin: 0%;
+    width: 100%;
+  }
+}
+
+.text-input4{
+  width: 90%;
+  margin: 10px;
+  // border-radius: 13px;
+  border:none;
+  font-size: 21px;
+  padding: 10px;
+  outline: none;
+  border-bottom: 3px rgb(21, 21, 139) solid;
+  background: rgb(227, 227, 231);
 }
