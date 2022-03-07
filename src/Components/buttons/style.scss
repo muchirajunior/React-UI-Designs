@@ -1,0 +1,155 @@
+.buttons{
+    width: 60%;
+    background-color: rgb(250, 243, 243);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+    @media (max-width:800px) {
+        width: 80%;
+    }
+
+    &__title{
+        color: rgb(8, 8, 94);
+        font-size: 25px;
+        font-weight: bold;
+        font-style: oblique;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.button{
+    background-color: rgb(214, 32, 19);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    min-width: 150px;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 0.4rem 1rem 0.4rem rgba(gray, 0.3);
+}
+
+.button-outline{
+    background-color: rgb(237, 237, 241);
+    color: rgb(25, 47, 109);
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(10, 10, 95);
+    min-width: 150px;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px;
+}
+
+.button-rounded{
+    background-image: linear-gradient(to right, rgb(67, 67, 165), rgb(72, 12, 114));
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    min-width: 200px;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 0.5rem 1rem 1rem 0.4rem rgba(black, 0.2);
+}
+
+.button-icon{
+    background-color: rgb(22, 33, 128);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    min-width: 150px;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px;
+}
+
+.button-download{
+    background-color: rgb(137, 16, 223);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: none;
+    min-width: 200px;
+    font-weight: bold;
+    height: 45px;
+    margin: 10px;
+    padding: 0;
+
+    &__icon{
+        float: left;
+        background-color:rgb(15, 15, 143) ;
+        color: white;
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text{
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+
+    }
+}
+
+.button-floating{
+    background-color: rgb(27, 27, 172);
+    font-size: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    border: none;
+    color: white;
+    margin: 10px;
+}
+
+.button-slanted{
+   display: flex;
+   width: 200px;
+   height: 45px;
+   padding: 0;
+   background-color: white;
+   box-shadow: 0.3rem 0.8rem 1rem rgba(black, 0.2);
+   border: none;
+   overflow: hidden;
+   border-radius: 20px;
+
+    &__slant{
+        height: 30px;
+        padding: 10px;
+        background-color: rgb(11, 11, 170);
+        transform: skew(20deg);
+        color: white;
+        width: 60%;
+        font-weight: bold;
+        font-size: 20px;
+    }
+   
+    &__icon{
+        color: rgb(12, 70, 145);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+}
