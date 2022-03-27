@@ -1,7 +1,7 @@
 import "./style.scss";
 import logo from "../assets/profile.svg";
 import { BsListNested } from "react-icons/bs";
-import { MdClose, MdDashboard, MdInput, MdPerson, MdPushPin, MdRotateRight } from "react-icons/md";
+import { MdCardGiftcard, MdClose, MdDashboard, MdInput, MdPerson, MdPushPin, MdRotateRight } from "react-icons/md";
 import { useState } from "react";
 import Component  from "./components";
 
@@ -30,6 +30,7 @@ function DashBoard(props) {
                     <a href="#!" className="nav-item"  onClick={()=>changeComponent("login")} > < MdPerson color="yellow" /> Login </a>
                     <a href="#!" className="nav-item"  onClick={()=>changeComponent("spinners")} > < MdRotateRight color="grey" /> spinners </a>
                     <a href="#!" className="nav-item"  onClick={()=>changeComponent("buttons")} > < MdPushPin color="white" /> buttons </a>
+                    <a href="#!" className="nav-item"  onClick={()=>changeComponent("card")} > < MdCardGiftcard color="orange" /> cards </a>
                 </div>
 
                 <div className="dash__body-container" >
